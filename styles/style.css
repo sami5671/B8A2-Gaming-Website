@@ -137,8 +137,8 @@
   line-height: 45px;
 }
 .img-2 {
-  width: 568px;
-  height: 389px;
+  width: 100%;
+  height: 550px;
 }
 /* smaller devices */
 @media screen and (max-width: 576px) {
@@ -176,7 +176,7 @@
   /* we are gamers */
   .img-2 {
     width: 100%;
-    margin: auto;
+    height: auto;
   }
   .we-are-gamers {
     padding: 0px;
@@ -198,4 +198,5 @@
     margin-top: 30px;
     padding: 30px;
   }
+  /* we are gamers */
 }
