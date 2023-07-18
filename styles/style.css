@@ -6,9 +6,13 @@
 
 /* navigation section */
 .navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -16,4 +20,25 @@
 }
 .G-color {
   color: var(--linear);
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navigation > .nav-2 ul {
+  display: flex;
+  gap: 20px;
+}
+.navigation > .nav-2 ul {
+  list-style: none;
+}
+
+.Follow {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
