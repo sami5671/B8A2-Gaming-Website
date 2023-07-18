@@ -133,5 +133,12 @@
   }
 }
 /* tablet devices */
-@media screen (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .img-1 {
+    height: auto;
+  }
+  .banner-info {
+    margin-top: 30px;
+    padding: 30px;
+  }
 }
