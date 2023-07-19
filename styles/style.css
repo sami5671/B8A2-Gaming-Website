@@ -1,4 +1,7 @@
 /* shared styles */
+body {
+  font-family: "Work Sans", sans-serif;
+}
 /* primary color of the website */
 :root {
   --linear: #ff42a5;
@@ -123,8 +126,7 @@
 .we-are-gamers {
   display: flex;
   gap: 50px;
-  background-color: #ffffff;
-  margin-top: 70px;
+  background-color: #fdf9f9;
   padding: 30px 60px 30px 120px;
 }
 .gamers-description {
@@ -139,6 +141,53 @@
 .img-2 {
   width: 600px;
   height: 460px;
+}
+
+/* online games section */
+.all-videos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px 60px 30px 120px;
+  position: relative;
+}
+.all-games-items {
+  position: relative;
+  display: inline-block;
+}
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-image: url("../images/play\ btn.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: opacity 0.1s;
+}
+.play-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.games-img {
+  width: 242px;
+  height: 300px;
+}
+.online-games-heading {
+  text-align: center;
+}
+.online-game-title {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 90px;
+  margin-bottom: 16px;
 }
 /* smaller devices */
 @media screen and (max-width: 576px) {
@@ -180,6 +229,7 @@
   }
   .we-are-gamers {
     padding: 0px;
+    background-color: white;
   }
   .gamers-description,
   .description {
@@ -187,6 +237,19 @@
   }
   .span-1 {
     font-size: 1rem;
+  }
+  /* online games funny videos */
+  .all-videos {
+    grid-template-columns: 1fr;
+    padding: 2.8rem;
+    gap: 1.5rem;
+  }
+  .games-img {
+    width: 100%;
+    height: auto;
+  }
+  .all-videos p {
+    font-size: 0.6rem;
   }
 }
 /* tablet devices */
