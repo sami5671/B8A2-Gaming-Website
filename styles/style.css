@@ -74,7 +74,7 @@ body {
   gap: 50px;
 }
 .banner-info {
-  background-color: #c992b60d;
+  background-image: url(../images/Group\ 14.png);
   border-radius: 10px;
   padding: 50px;
 }
@@ -249,6 +249,49 @@ body {
 
   background-color: rgba(255, 113, 208, 0.1);
 }
+/* footer section */
+.footer {
+  background-color: #0b0223;
+  text-align: center;
+  padding: 100px;
+}
+.logo-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+.white {
+  color: white;
+}
+.our {
+  margin-top: 20px;
+}
+.us {
+  display: flex;
+  justify-content: center;
+  display: inline;
+}
+.us > a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px 20px 30px;
+}
+.social-icons {
+  margin-top: 3rem;
+}
+.social-icons a {
+  color: white;
+  padding: 20px;
+}
+.terms {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
 /* smaller devices media query */
 @media screen and (max-width: 576px) {
   .navigation,
