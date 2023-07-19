@@ -318,6 +318,7 @@ body {
   /* quick play */
   .quick-paly {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 30px;
     text-align: center;
   }
@@ -332,6 +333,20 @@ body {
   .img-size-2 {
     width: 100px;
     height: auto;
+  }
+  /* features section */
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+  }
+  .bg-color .feature-img {
+    width: 26%;
+    height: auto;
+  }
+  .bg-color {
+    height: auto;
+    width: 100%;
+    background-color: #fffbfb;
   }
 }
 /* tablet devices */
@@ -356,5 +371,19 @@ body {
     flex-direction: column;
     padding-left: 100px;
     text-align: center;
+  }
+  /* features */
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+  }
+  .bg-color .feature-img {
+    width: 26%;
+    height: auto;
+  }
+  .bg-color {
+    height: auto;
+    width: 100%;
+    background-color: #fefafa;
   }
 }
