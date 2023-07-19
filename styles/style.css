@@ -192,12 +192,47 @@ body {
 .game-description {
   font-size: 0.6rem;
 }
-/* smaller devices */
+
+/* quick play section */
+.quick-paly {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: right;
+  gap: 2rem;
+  padding: 30px 60px 30px 300px;
+  margin-top: 100px;
+}
+.quick-img {
+  display: block;
+  text-align: center;
+}
+.quick-img-2 {
+  margin-top: -120px;
+  margin-right: 350px;
+}
+.img-size-1 {
+  width: 350px;
+  height: 290px;
+}
+.img-size-2 {
+  width: 180px;
+  height: 200px;
+}
+.quick-description {
+  color: var(--gray);
+  color: #534c64;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+/* smaller devices media query */
 @media screen and (max-width: 576px) {
   .navigation,
   .navigation > .nav-2 ul,
   .nav-2,
-  .we-are-gamers {
+  .we-are-gamers,
+  .quick-paly {
     flex-direction: column;
   }
   .logo {
@@ -256,6 +291,24 @@ body {
   }
   .all-videos p {
     font-size: 0.6rem;
+  }
+  /* quick play */
+  .quick-paly {
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+  .quick-img {
+    width: 100%;
+  }
+  .img-size-1 {
+    width: 70%;
+    height: auto;
+  }
+
+  .img-size-2 {
+    width: 100px;
+    height: auto;
   }
 }
 /* tablet devices */
