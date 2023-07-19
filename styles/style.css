@@ -257,10 +257,7 @@ body {
 .feature-img {
   margin-left: 5px;
 }
-.four-button {
-  display: flex;
-  margin-left: 20px;
-}
+
 .features {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -420,7 +417,7 @@ body {
     background-color: white;
   }
   .bg-color .feature-img {
-    width: 26%;
+    width: 80%;
     height: auto;
   }
   .bg-color {
@@ -491,7 +488,7 @@ body {
     background-color: white;
   }
   .bg-color .feature-img {
-    width: 26%;
+    width: 80%;
     height: auto;
   }
   .bg-color {
