@@ -201,7 +201,8 @@ body {
   text-align: right;
   gap: 2rem;
   padding: 30px 60px 30px 300px;
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 .quick-img {
   display: block;
@@ -225,6 +226,28 @@ body {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.2rem;
+}
+/* features */
+.bg-color {
+  width: 200px;
+  height: 70px;
+  border-radius: 50px;
+  background: #f8f0f0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: small;
+  margin-top: 20px;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.2rem;
+  justify-content: space-between;
+  padding: 20px;
+
+  background-color: rgba(255, 113, 208, 0.1);
 }
 /* smaller devices media query */
 @media screen and (max-width: 576px) {
@@ -327,5 +350,11 @@ body {
   /* online games */
   .all-videos {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* quick games */
+  .quick-paly {
+    flex-direction: column;
+    padding-left: 100px;
+    text-align: center;
   }
 }
