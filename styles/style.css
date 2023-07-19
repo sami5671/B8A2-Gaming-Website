@@ -32,6 +32,7 @@ body {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  cursor: pointer;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -110,12 +111,18 @@ body {
   background-color: var(--linear);
   color: white;
 }
+.button-1:hover {
+  background-color: #8758f1;
+  transition: 1s ease;
+  cursor: pointer;
+}
 .button-2 {
   padding: 21px 40px;
   border: none;
   border-radius: 45px;
   background-color: var(--blue);
   color: white;
+  cursor: pointer;
 }
 .img-1 {
   width: 100%;
@@ -256,6 +263,7 @@ body {
   padding: 100px;
 }
 .logo-2 {
+  padding-top: 40px;
   width: 100%;
   height: auto;
   display: flex;
@@ -269,27 +277,41 @@ body {
 }
 .our {
   margin-top: 20px;
-}
-.us {
   display: flex;
   justify-content: center;
-  display: inline;
+  gap: 10px;
+  padding: 20px;
+  font-size: 18px;
 }
+
 .us > a {
   color: white;
   text-decoration: none;
-  padding: 0px 10px 20px 30px;
+  padding: 0px 10px 20px 20px;
 }
 .social-icons {
   margin-top: 3rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 .social-icons a {
   color: white;
-  padding: 20px;
+}
+.gray-color > a {
+  color: var(--gray);
+  text-decoration: none;
 }
 .terms {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
   margin-top: 30px;
   margin-bottom: 40px;
+}
+.gray-footer {
+  font-size: 0.8rem;
+  color: var(--gray);
 }
 
 /* smaller devices media query */
@@ -338,6 +360,7 @@ body {
   .gamers-description,
   .description {
     text-align: center;
+    font-size: 0.8rem;
   }
   .span-1 {
     font-size: 1rem;
@@ -391,6 +414,39 @@ body {
     width: 100%;
     background-color: #fffbfb;
   }
+
+  /* footer section */
+  .footer {
+    padding: 0px;
+  }
+  .logo-2 {
+    margin-top: 40px;
+  }
+  .our {
+    display: grid;
+    font-size: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 0px;
+  }
+  .social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 10px;
+  }
+  .terms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 0.6rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .gray-footer {
+    font-size: 0.6rem;
+    padding: 5px 60px 30px 60px;
+  }
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -428,5 +484,22 @@ body {
     height: auto;
     width: 100%;
     background-color: #fefafa;
+  }
+  /* footer section */
+  .our {
+    display: grid;
+    font-size: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 0px;
+  }
+  .terms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1rem;
+  }
+  .gray-footer {
+    font-size: 0.7rem;
+    padding: 5px 60px 30px 60px;
   }
 }
