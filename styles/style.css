@@ -265,4 +265,8 @@ body {
   .we-are-gamers {
     flex-direction: column-reverse;
   }
+  /* online games */
+  .all-videos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
