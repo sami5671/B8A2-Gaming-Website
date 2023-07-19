@@ -189,6 +189,9 @@ body {
   margin-top: 90px;
   margin-bottom: 16px;
 }
+.game-description {
+  font-size: 0.6rem;
+}
 /* smaller devices */
 @media screen and (max-width: 576px) {
   .navigation,
@@ -247,6 +250,9 @@ body {
   .games-img {
     width: 100%;
     height: auto;
+  }
+  .online-game-title {
+    font-size: 1.6rem;
   }
   .all-videos p {
     font-size: 0.6rem;
