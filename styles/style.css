@@ -174,7 +174,7 @@ body {
   background-position: center;
   background-size: 100%;
   border-radius: 50%;
-  opacity: 0.4;
+  opacity: 0.5;
   transition: opacity 0.1s;
 }
 .play-btn:hover {
@@ -185,6 +185,7 @@ body {
 .games-img {
   width: 242px;
   height: 300px;
+  cursor: pointer;
 }
 .online-games-heading {
   text-align: center;
@@ -246,6 +247,19 @@ body {
   gap: 1.2rem;
   font-size: small;
   margin-top: 20px;
+  margin-left: 5px;
+}
+.bg-color:hover {
+  border: 2px solid tomato;
+  color: tomato;
+  cursor: pointer;
+}
+.feature-img {
+  margin-left: 5px;
+}
+.four-button {
+  display: flex;
+  margin-left: 20px;
 }
 .features {
   display: grid;
@@ -253,9 +267,9 @@ body {
   gap: 1.2rem;
   justify-content: space-between;
   padding: 20px;
-
   background-color: rgba(255, 113, 208, 0.1);
 }
+
 /* footer section */
 .footer {
   background-color: #0b0223;
