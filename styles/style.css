@@ -258,6 +258,9 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
+.bg-color p {
+  font-weight: 548;
+}
 .bg-color:hover {
   border: 2px solid tomato;
   color: tomato;
